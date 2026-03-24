@@ -2,15 +2,22 @@
 # ÚLOHA 1: Registrace (jméno a město)
 # ==========================================
 # Sem napiš svůj kód:
-
+jmeno = input("Jak se jmenujes?")
+barva = input("Jaká je tvá oblíbená barva?")
+print(f"Ahoj {jmeno}, tvoje oblibena barva je {barva}. To je skvělá volba!)
 
 # ==========================================
 # ÚLOHA 2: Jednoduchá kalkulačka (součet)
 # ==========================================
 # Sem napiš svůj kód:
-
-
+cislo1 = int(input("Zadej první cislo:"))
+cislo2 = int(input("Zadej druhé číslo:"))
+soucet = cislo1 + cislo2
+print(f"Jejich součet je: {součet}"))
 # ==========================================
 # ÚLOHA 3: Výpočet psího věku (věk * 7)
 # ==========================================
 # Sem napiš svůj kód:
+lidsky_vek = int(input("Kolik ti je let?"))
+psi_vek = lidsky_vek * 7
+print(f"V psích letech by ti bylo: {psi_vek} let. Haf!")
